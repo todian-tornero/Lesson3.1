@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void clickOnButtonSave(){
-        Button buttonSave = findViewById(R.id.buttonSave);
+        Button buttonSave = findViewById(R.id.buttonSavePressure);
         buttonSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

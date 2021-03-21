@@ -6,4 +6,8 @@
     <string name="buttonSave">Сохранить</string>
     <string name="buttonPressure">Давление</string>
     <string name="buttonHealth">Показатели здоровья</string>
+    <string name="sys">Систолическое давление</string>
+    <string name="dias">Диастолическое давление</string>
+    <string name="puls">Пульс</string>
+    <string name="tah">Тахикардия</string>
 </resources>
