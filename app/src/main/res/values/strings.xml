@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lesson3.1</string>
+    <string name="StartView">Комплексная система мониторинга здоровья</string>
+    <string name="editTextName">ФИО</string>
+    <string name="editTextAge">Возраст</string>
+    <string name="buttonSave">Сохранить</string>
+</resources>
