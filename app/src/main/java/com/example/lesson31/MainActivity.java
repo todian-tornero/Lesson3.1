@@ -2,6 +2,7 @@ package com.example.lesson31;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -16,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         clickOnButtonSave();
+        clickOnButtonPressure();
+        clickOnButtonHealth();
     }
 
     private void clickOnButtonSave(){
@@ -34,6 +37,28 @@ public class MainActivity extends AppCompatActivity {
                 catch (Exception e){
                     Toast.makeText(MainActivity.this, "Error", Toast.LENGTH_LONG).show();
                 }
+            }
+        });
+    }
+
+    private void clickOnButtonPressure(){
+        Button buttonPressure = findViewById(R.id.buttonPressure);
+        buttonPressure.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, PressureActivity.class);
+                startActivity(intent);
+            }
+        });
+    }
+
+    private void clickOnButtonHealth(){
+        Button buttonHealth = findViewById(R.id.buttonHealth);
+        buttonHealth.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, HealthActivity.class);
+                startActivity(intent);
             }
         });
     }

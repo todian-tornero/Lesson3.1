@@ -4,4 +4,6 @@
     <string name="editTextName">ФИО</string>
     <string name="editTextAge">Возраст</string>
     <string name="buttonSave">Сохранить</string>
+    <string name="buttonPressure">Давление</string>
+    <string name="buttonHealth">Показатели здоровья</string>
 </resources>
